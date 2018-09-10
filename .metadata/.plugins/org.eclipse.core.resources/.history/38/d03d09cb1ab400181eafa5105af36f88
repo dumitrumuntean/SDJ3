@@ -1,0 +1,12 @@
+import java.rmi.Remote;
+
+import org.omg.CORBA.portable.RemarshalException;
+
+import Model.Customer;
+
+
+public interface AdminInterface extends Remote{
+	
+	public void addCustomer(Customer customer) throws RemarshalException;
+	
+}

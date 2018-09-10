@@ -1,0 +1,21 @@
+package Controller;
+
+import javax.swing.text.View;
+
+import View.AdminAPP;
+import View.IView;
+
+public interface IController {
+		
+	private IView view;
+	
+	public Controller()
+	{
+		try {
+			AdminAPP window = new AdminAPP();
+			window.frame.setVisible(true);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package Adapter;
+
+import Model.Customer;
+
+public class IAdapter {
+	
+	public void addCostumer(Customer  customer);
+
+}

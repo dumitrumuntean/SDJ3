@@ -1,0 +1,17 @@
+import java.rmi.RemoteException;
+
+import Model.Customer;
+
+
+public class Admin implements AdminInterface{
+
+	@Override
+	public void addCustomer(Customer customer) throws RemoteException {
+		
+		
+		
+	}
+	
+	
+
+}

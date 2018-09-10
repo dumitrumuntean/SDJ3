@@ -1,0 +1,20 @@
+package Controller;
+
+import Adapter.Adapter;
+import Adapter.IAdapter;
+import Model.Customer;
+
+public class Controller implements IController{
+	private IAdapter adapter;
+	
+	public Controller()
+	{
+		adapter = new Adapter();
+	}
+	
+	public void addCustomer(Customer c)
+	{
+		adapter.addCostumer(c);
+	}
+	
+}

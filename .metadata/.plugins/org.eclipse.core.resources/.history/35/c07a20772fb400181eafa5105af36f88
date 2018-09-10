@@ -1,0 +1,10 @@
+package Adapter;
+
+public class IAdapter {
+	
+	public void addCostumer(Costumer  costumer)
+	{
+		
+	}
+
+}

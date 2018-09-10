@@ -1,0 +1,15 @@
+import java.rmi.Naming;
+
+public class AdminMain {
+
+	public static void main(String[] args) {
+
+		try {
+			AdminInterface sir = (AdminInterface) Naming
+					.lookup("rmi://localhost:1099/admin");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

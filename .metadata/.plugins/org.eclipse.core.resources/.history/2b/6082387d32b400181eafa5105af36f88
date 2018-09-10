@@ -1,0 +1,12 @@
+package View;
+
+import Model.Customer;
+
+public class View implements IView{
+	
+	private AdminAPP adminApp;
+	@Override
+	public void show(Customer customer) {		
+		System.out.println(customer);
+	}
+}

@@ -1,0 +1,19 @@
+import java.rmi.Naming;
+
+
+public class AdminMain {
+	
+	public static void main(String[] args) {
+		f (System.getSecurityManager() == null) {
+            System.setSecurityManager(new SecurityManager());
+        }
+	try{
+		AdminInterface sir = (AdminInterface)Naming.lookup("rmi://localhost:1099/admin");
+		
+	}catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+	}
+
+}

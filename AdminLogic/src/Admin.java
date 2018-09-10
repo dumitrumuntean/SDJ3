@@ -1,0 +1,31 @@
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.ArrayList;
+
+import Controller.Controller;
+import Model.Customer;
+
+
+public class Admin implements AdminInterface{
+
+	private Controller controller;
+	
+	public Admin() throws RemoteException, ClassNotFoundException
+	{
+		controller = new Controller();
+		UnicastRemoteObject.exportObject(this, 0);
+	}
+	@Override
+	public void addCustomer(Customer customer) throws RemoteException {
+		controller.addCustomer(customer);
+	}
+	@Override
+	public ArrayList<Customer> getAllCustomers() throws RemoteException {
+		
+		return controller.getAllCustomers();
+	}
+	
+	
+	
+
+}

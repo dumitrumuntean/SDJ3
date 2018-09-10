@@ -1,0 +1,13 @@
+package Adapter;
+
+import Model.Customer;
+
+public class Adapter implements IAdapter{
+
+	@Override
+	public void addCostumer(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package Controller;
+
+import Model.Customer;
+
+public interface IController {
+
+	public void addCustomer(Customer c);
+	public ArrayList<Customer> getAllCustomers();
+	
+}

@@ -1,0 +1,26 @@
+package View;
+
+import Model.Customer;
+
+public class View implements IView {
+
+	private AdminAPP adminApp;
+
+	public View() {
+
+		try {
+			AdminAPP window = new AdminAPP();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void show(Customer customer) {
+		System.out.println(customer);
+	}
+
+	public void showAdminApp() {
+	
+	}
+}

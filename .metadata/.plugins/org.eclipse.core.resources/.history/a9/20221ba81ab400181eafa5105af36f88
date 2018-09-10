@@ -1,0 +1,25 @@
+package Model;
+
+import java.io.Serializable;
+
+public class Customer implements Serializable{
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String street;
+	private String city;
+	private String phoneNumber;
+	
+	public Customer(String firstName, String lastName, String street,
+			String city, String phoneNumber) {
+
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.street = street;
+		this.city = city;
+		this.phoneNumber = phoneNumber;
+	}
+	
+
+}

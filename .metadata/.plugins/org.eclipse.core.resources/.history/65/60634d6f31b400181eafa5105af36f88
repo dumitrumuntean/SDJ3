@@ -1,0 +1,9 @@
+package View;
+
+import Model.Customer;
+
+public class IView {
+
+	public void show(Customer customer);
+	
+}
