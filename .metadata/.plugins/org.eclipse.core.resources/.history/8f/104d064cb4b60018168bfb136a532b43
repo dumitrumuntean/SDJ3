@@ -1,0 +1,9 @@
+package Adapter;
+
+import java.util.ArrayList;
+
+import Model.Customer;
+
+public interface IAdapter {
+		
+}

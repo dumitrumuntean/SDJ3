@@ -5,9 +5,10 @@
     <Host>localhost</Host>
     <Port>5432</Port>
     <User>postgres</User>
-    <SavePassword>false</SavePassword>
+    <SavePassword>true</SavePassword>
+    <Password>TZB1bVOl7MMoz6dVRZWf6A==</Password>
     <RestoreWork>false</RestoreWork>
-    <LastConnectionDate>2018-09-12T19:39:29</LastConnectionDate>
+    <LastConnectionDate>2018-09-12T19:45:35</LastConnectionDate>
     <Database>postgres</Database>
     <Options>
       <UUID>33d1a97f-0270-45eb-b002-1fd3db16a640</UUID>

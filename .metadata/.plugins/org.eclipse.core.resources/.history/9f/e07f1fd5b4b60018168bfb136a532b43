@@ -1,0 +1,11 @@
+import java.rmi.server.UnicastRemoteObject;
+
+
+public class Database implements IDatabase{
+	
+	public IDatabase()
+	{
+		UnicastRemoteObject.exportObject(this, 0);
+	}
+
+}

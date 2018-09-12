@@ -1,0 +1,9 @@
+package Controller;
+
+import Adapter.IAdapter;
+
+public interface IController {
+	
+	private IAdapter adapter;
+
+}
