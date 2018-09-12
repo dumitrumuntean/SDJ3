@@ -7,6 +7,10 @@
 	<section name="com.dell.toadext.schemabrowser.actions.DisplayDescribeObjectEditorAction">
 		<item value="false" key="active"/>
 	</section>
+	<section name="com.dell.toadext.editor.SqlEditor">
+		<section name="saveToFile">
+		</section>
+	</section>
 	<section name="com.dell.toadext.schemabrowser.actions.LinkWithEditorAction">
 		<item value="true" key="active"/>
 	</section>
