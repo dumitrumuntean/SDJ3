@@ -1,0 +1,11 @@
+import java.rmi.Naming;
+
+
+public class ClerkMain {
+	
+	public static void main(String[] args) {
+		IClerk sir = (IClerk) Naming
+				.lookup("rmi://localhost:1097/clerk");
+	}
+
+}

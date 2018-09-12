@@ -1,0 +1,11 @@
+import java.rmi.server.UnicastRemoteObject;
+
+
+public class Clerk implements IClerk{
+	
+	public Clerk()
+	{
+		UnicastRemoteObject.exportObject(this, 0);
+	}
+	
+}

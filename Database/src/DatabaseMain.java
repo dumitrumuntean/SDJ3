@@ -12,7 +12,7 @@ public class DatabaseMain {
 			Registry rg = LocateRegistry.createRegistry(1098);
 			IDatabase dbs = new Database();
 			rg.rebind("dbs", dbs);
-			System.out.println("Starting server...");
+			System.out.println("Starting database server...");
 			
 		}catch(Exception e){
 			e.printStackTrace();

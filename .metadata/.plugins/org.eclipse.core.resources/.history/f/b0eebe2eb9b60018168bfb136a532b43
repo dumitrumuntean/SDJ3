@@ -1,0 +1,9 @@
+
+public class Clerk implements IClerk{
+	
+	public Clerk()
+	{
+		
+	}
+	
+}

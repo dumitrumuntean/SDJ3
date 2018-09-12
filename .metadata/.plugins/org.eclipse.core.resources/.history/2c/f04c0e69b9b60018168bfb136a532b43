@@ -1,0 +1,14 @@
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+
+
+public class ClerkMain {
+	
+	public static void main(String[] args) throws MalformedURLException, RemoteException, NotBoundException {
+		IClerk sir = (IClerk) Naming
+				.lookup("rmi://localhost:1097/clerk");
+	}
+
+}
