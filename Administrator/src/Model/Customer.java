@@ -18,7 +18,7 @@ public class Customer implements Serializable{
 		this.lastName = lastName;
 		this.street = street;
 
-		//comment
+		//comment some more
 		this.city = city;
 		this.phoneNumber = phoneNumber;
 	}
