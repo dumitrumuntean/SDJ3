@@ -55,6 +55,8 @@ public class Customer implements Serializable{
 		this.city = city;
 	}
 
+	//still testting
+
 	public String getPhoneNumber() {
 		return phoneNumber;
 	}
